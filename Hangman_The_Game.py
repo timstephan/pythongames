@@ -12,10 +12,6 @@ def load_wordlist():
     
     return random_line
 
-
-ran_word = load_wordlist()
-ran_word = ''.join(filter(str.isalpha, ran_word))
-
 letter = ''
 gamevar = 1
 masked_word = []
@@ -41,6 +37,8 @@ while gamevar == 1:
     if askstatus == 2:
         break
 
+    ran_word = load_wordlist()
+    ran_word = ''.join(filter(str.isalpha, ran_word))    
     counter = 9
     letter_list.clear()
     masked_word.clear()
