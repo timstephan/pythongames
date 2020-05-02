@@ -24,7 +24,7 @@ print("3. Exit")
 i = int(input())
 
 if i == 1:
-    os.system('python tictactoelastbackup.py')
+    os.system('python tictactoe.py')
 if i == 2:
     os.system('python Hangman_the_game.py')
 if i == 3:
