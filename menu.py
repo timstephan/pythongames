@@ -26,6 +26,6 @@ i = int(input())
 if i == 1:
     os.system('python tictactoe.py')
 if i == 2:
-    os.system('python Hangman_the_game.py')
+    os.system('python Hangman_The_Game.py')
 if i == 3:
     print("Bye! See you soon.")
